@@ -43,7 +43,7 @@ for viloyat in viloyatlar:
         max5 = name.select(".temperature .max")[4].text
         javob.append(data + "-" + month + " "+min[4:]+" : "+ max[5:]+";     "+data2 + "-" + month2 + " "+ min2[4:] + " : "+ max2[5:]+";      "+data3 + "-" + month3 + " "+ min3[4:]+" : "+ max3[5:]+";        "+data4 + "-" + month4 + " "+ min4[4:]+" : "+ max4[5:]+";      "+data5 + "-" + month5 + " "+ min5[4:]+" : "+max5[5:])
        
-TOKEN = "7070553394:AAHSe2NY4dzPPhxSSvXKu0n2_BCsnoAJiV0"
+TOKEN = "token"
 
 bot = telebot.TeleBot(TOKEN, parse_mode=None)
 
