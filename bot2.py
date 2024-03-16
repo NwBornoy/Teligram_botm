@@ -4,7 +4,7 @@ import requests
 from googletrans import Translator
 translator = Translator()
 
-TOKEN = "7070553394:AAHSe2NY4dzPPhxSSvXKu0n2_BCsnoAJiV0"
+TOKEN = "token"
 
 bot = telebot.TeleBot(TOKEN, parse_mode=None)
 
