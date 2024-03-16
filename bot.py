@@ -372,58 +372,58 @@ def echo_all(message):
 
     try:
         if message.text == 'Qashadaryo_taqvimi🗓':
-            requests.get("https://api.telegram.org/bot7070553394:AAHSe2NY4dzPPhxSSvXKu0n2_BCsnoAJiV0/sendPhoto?chat_id=6631020188&photo=https://github.com/NwBornoy/Picture-of-the-Ramadan-calendar-2024/blob/main/foto/Qashqadaryo.png?raw=true&caption=Ro'zadorlarimiz uchun taqvim")
+            requests.get("https://api.telegram.org/bot<token>/sendPhoto?chat_id=6631020188&photo=https://github.com/NwBornoy/Picture-of-the-Ramadan-calendar-2024/blob/main/foto/Qashqadaryo.png?raw=true&caption=Ro'zadorlarimiz uchun taqvim")
             bot.send_message(message.chat.id, f"Qaysi duo kerak bo'lsa bosing!", reply_markup=taqvim())
         
         elif message.text == 'Surxondaryo_taqvimi🗓':
-            requests.get("https://api.telegram.org/bot7070553394:AAHSe2NY4dzPPhxSSvXKu0n2_BCsnoAJiV0/sendPhoto?chat_id=6631020188&photo=https://github.com/NwBornoy/Picture-of-the-Ramadan-calendar-2024/blob/main/foto/Surxondaryo.png?raw=true&caption=Ro'zadorlarimiz uchun taqvim")
+            requests.get("https://api.telegram.org/bot<token>/sendPhoto?chat_id=6631020188&photo=https://github.com/NwBornoy/Picture-of-the-Ramadan-calendar-2024/blob/main/foto/Surxondaryo.png?raw=true&caption=Ro'zadorlarimiz uchun taqvim")
             bot.send_message(message.chat.id, f"Qaysi duo kerak bo'lsa bosing!", reply_markup=taqvim())
 
         elif message.text == 'Xorazim_taqvimi🗓':
-            requests.get("https://api.telegram.org/bot7070553394:AAHSe2NY4dzPPhxSSvXKu0n2_BCsnoAJiV0/sendPhoto?chat_id=6631020188&photo=https://github.com/NwBornoy/Picture-of-the-Ramadan-calendar-2024/blob/main/foto/Xorazim.png?raw=true&caption=Ro'zadorlarimiz uchun taqvim")
+            requests.get("https://api.telegram.org/bot<token>/sendPhoto?chat_id=6631020188&photo=https://github.com/NwBornoy/Picture-of-the-Ramadan-calendar-2024/blob/main/foto/Xorazim.png?raw=true&caption=Ro'zadorlarimiz uchun taqvim")
             bot.send_message(message.chat.id, f"Qaysi duo kerak bo'lsa bosing!", reply_markup=taqvim())
         
 
         elif message.text == "Qoraqalpog'iston_taqvimi🗓":
-            requests.get("https://api.telegram.org/bot7070553394:AAHSe2NY4dzPPhxSSvXKu0n2_BCsnoAJiV0/sendPhoto?chat_id=6631020188&photo=https://github.com/NwBornoy/Picture-of-the-Ramadan-calendar-2024/blob/main/foto/Nukus.png?raw=true&caption=Ro'zadorlarimiz uchun taqvim")
+            requests.get("https://api.telegram.org/bot<token>/sendPhoto?chat_id=6631020188&photo=https://github.com/NwBornoy/Picture-of-the-Ramadan-calendar-2024/blob/main/foto/Nukus.png?raw=true&caption=Ro'zadorlarimiz uchun taqvim")
             bot.send_message(message.chat.id, f"Qaysi duo kerak bo'lsa bosing!", reply_markup=taqvim())
 
         elif message.text == 'Navoiy_taqvimi🗓':
-            requests.get("https://api.telegram.org/bot7070553394:AAHSe2NY4dzPPhxSSvXKu0n2_BCsnoAJiV0/sendPhoto?chat_id=6631020188&photo=https://github.com/NwBornoy/Picture-of-the-Ramadan-calendar-2024/blob/main/foto/Navoiy.png?raw=true&caption=Ro'zadorlarimiz uchun taqvim")
+            requests.get("https://api.telegram.org/bot<token>/sendPhoto?chat_id=6631020188&photo=https://github.com/NwBornoy/Picture-of-the-Ramadan-calendar-2024/blob/main/foto/Navoiy.png?raw=true&caption=Ro'zadorlarimiz uchun taqvim")
             bot.send_message(message.chat.id, f"Qaysi duo kerak bo'lsa bosing!", reply_markup=taqvim())
 
 
         elif message.text == 'Buxoro_taqvimi🗓':
-            requests.get("https://api.telegram.org/bot7070553394:AAHSe2NY4dzPPhxSSvXKu0n2_BCsnoAJiV0/sendPhoto?chat_id=6631020188&photo=https://github.com/NwBornoy/Picture-of-the-Ramadan-calendar-2024/blob/main/foto/Buxoro.png?raw=true&caption=Ro'zadorlarimiz uchun taqvim")
+            requests.get("https://api.telegram.org/bot<token>/sendPhoto?chat_id=6631020188&photo=https://github.com/NwBornoy/Picture-of-the-Ramadan-calendar-2024/blob/main/foto/Buxoro.png?raw=true&caption=Ro'zadorlarimiz uchun taqvim")
             bot.send_message(message.chat.id, f"Qaysi duo kerak bo'lsa bosing!", reply_markup=taqvim())
 
         elif message.text == 'Samarqand_taqvimi🗓':
-            requests.get("https://api.telegram.org/bot7070553394:AAHSe2NY4dzPPhxSSvXKu0n2_BCsnoAJiV0/sendPhoto?chat_id=6631020188&photo=https://github.com/NwBornoy/Picture-of-the-Ramadan-calendar-2024/blob/main/foto/Samarqand.png?raw=true&caption=Ro'zadorlarimiz uchun taqvim")
+            requests.get("https://api.telegram.org/bot<token>/sendPhoto?chat_id=6631020188&photo=https://github.com/NwBornoy/Picture-of-the-Ramadan-calendar-2024/blob/main/foto/Samarqand.png?raw=true&caption=Ro'zadorlarimiz uchun taqvim")
             bot.send_message(message.chat.id, f"Qaysi duo kerak bo'lsa bosing!", reply_markup=taqvim())
 
         elif message.text == 'Jizzax_taqvimi🗓':
-            requests.get("https://api.telegram.org/bot7070553394:AAHSe2NY4dzPPhxSSvXKu0n2_BCsnoAJiV0/sendPhoto?chat_id=6631020188&photo=https://github.com/NwBornoy/Picture-of-the-Ramadan-calendar-2024/blob/main/foto/Jizzax.png?raw=true&caption=Ro'zadorlarimiz uchun taqvim")
+            requests.get("https://api.telegram.org/bot<token>/sendPhoto?chat_id=6631020188&photo=https://github.com/NwBornoy/Picture-of-the-Ramadan-calendar-2024/blob/main/foto/Jizzax.png?raw=true&caption=Ro'zadorlarimiz uchun taqvim")
             bot.send_message(message.chat.id, f"Qaysi duo kerak bo'lsa bosing!", reply_markup=taqvim())
         
 
         elif message.text == 'Sirdaryo_taqvimi🗓':
-            requests.get("https://api.telegram.org/bot7070553394:AAHSe2NY4dzPPhxSSvXKu0n2_BCsnoAJiV0/sendPhoto?chat_id=6631020188&photo=https://github.com/NwBornoy/Picture-of-the-Ramadan-calendar-2024/blob/main/foto/Sirdaryo.png?raw=true&caption=Ro'zadorlarimiz uchun taqvim")
+            requests.get("https://api.telegram.org/bot<token>/sendPhoto?chat_id=6631020188&photo=https://github.com/NwBornoy/Picture-of-the-Ramadan-calendar-2024/blob/main/foto/Sirdaryo.png?raw=true&caption=Ro'zadorlarimiz uchun taqvim")
             bot.send_message(message.chat.id, f"Qaysi duo kerak bo'lsa bosing!", reply_markup=taqvim())
 
         elif message.text == 'Toshkent_taqvimi🗓':
-            requests.get("https://api.telegram.org/bot7070553394:AAHSe2NY4dzPPhxSSvXKu0n2_BCsnoAJiV0/sendPhoto?chat_id=6631020188&photo=https://github.com/NwBornoy/Picture-of-the-Ramadan-calendar-2024/blob/main/foto/Toshkent.png?raw=true&caption=Ro'zadorlarimiz uchun taqvim")
+            requests.get("https://api.telegram.org/bot<token>/sendPhoto?chat_id=6631020188&photo=https://github.com/NwBornoy/Picture-of-the-Ramadan-calendar-2024/blob/main/foto/Toshkent.png?raw=true&caption=Ro'zadorlarimiz uchun taqvim")
             bot.send_message(message.chat.id, f"Qaysi duo kerak bo'lsa bosing!", reply_markup=taqvim())
 
         elif message.text == 'Andijon_taqvimi🗓':
-            requests.get("https://api.telegram.org/bot7070553394:AAHSe2NY4dzPPhxSSvXKu0n2_BCsnoAJiV0/sendPhoto?chat_id=6631020188&photo=https://github.com/NwBornoy/Picture-of-the-Ramadan-calendar-2024/blob/main/foto/Andijon.png?raw=true&caption=Ro'zadorlarimiz uchun taqvim")
+            requests.get("https://api.telegram.org/bot<token>/sendPhoto?chat_id=6631020188&photo=https://github.com/NwBornoy/Picture-of-the-Ramadan-calendar-2024/blob/main/foto/Andijon.png?raw=true&caption=Ro'zadorlarimiz uchun taqvim")
             bot.send_message(message.chat.id, f"Qaysi duo kerak bo'lsa bosing!", reply_markup=taqvim())
 
         elif message.text == "Farg'ona_taqvimiq🗓":
-            requests.get("https://api.telegram.org/bot7070553394:AAHSe2NY4dzPPhxSSvXKu0n2_BCsnoAJiV0/sendPhoto?chat_id=6631020188&photo=https://github.com/NwBornoy/Picture-of-the-Ramadan-calendar-2024/blob/main/foto/Farg'ona.png?raw=true?raw=true&caption=Ro'zadorlarimiz uchun taqvim")
+            requests.get("https://api.telegram.org/bot<token>/sendPhoto?chat_id=6631020188&photo=https://github.com/NwBornoy/Picture-of-the-Ramadan-calendar-2024/blob/main/foto/Farg'ona.png?raw=true?raw=true&caption=Ro'zadorlarimiz uchun taqvim")
             bot.send_message(message.chat.id, f"Qaysi duo kerak bo'lsa bosing!", reply_markup=taqvim())
             
         elif message.text == "Namangan_taqvimi🗓":
-            requests.get("https://api.telegram.org/bot7070553394:AAHSe2NY4dzPPhxSSvXKu0n2_BCsnoAJiV0/sendPhoto?chat_id=6631020188&photo=https://github.com/NwBornoy/Picture-of-the-Ramadan-calendar-2024/blob/main/foto/Namangan.png?raw=true?raw=true&caption=Ro'zadorlarimiz uchun taqvim")
+            requests.get("https://api.telegram.org/bot<token>/sendPhoto?chat_id=6631020188&photo=https://github.com/NwBornoy/Picture-of-the-Ramadan-calendar-2024/blob/main/foto/Namangan.png?raw=true?raw=true&caption=Ro'zadorlarimiz uchun taqvim")
             bot.send_message(message.chat.id, f"Qaysi duo kerak bo'lsa bosing!", reply_markup=taqvim())
         
         if message.text == 'Saharlik_duosi🌅':   
